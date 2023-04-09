@@ -16,4 +16,4 @@ jobs:
       - name: Install dependencies
         run: pip install flake8 black bandit pylint isort pytest 
       - name: Check formating 
-        run: black --check ./
+        run: black --check ./ && isort --check ./
