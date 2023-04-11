@@ -1,8 +1,5 @@
 import random
 
-import math
-
-import turtle
 
 list = []
 list_size = 10
